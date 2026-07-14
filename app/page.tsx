@@ -367,6 +367,33 @@ export default function Home() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [handleScroll]);
+  // submit form to whatsapp
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const whatsappNumber = "8115953195"; // Country code ke saath
+
+    const text = `
+📌 *New AC Service Booking*
+
+👤 Name: ${form.name}
+
+📞 Phone: ${form.phone}
+
+🛠 Service: ${form.service}
+
+📍 Location: ${form.location}
+
+💬 Message: ${form.message}
+`;
+
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      text
+    )}`;
+
+    window.open(url, "_blank");
+  };
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -375,7 +402,7 @@ export default function Home() {
     name: "Smart AC Service",
     description: "Premium AC repair, installation, gas filling and maintenance in Nalasopara, Vasai, Virar, Naigaon, Bhayandar and Mumbai.",
     url: "https://smartacservice.in",
-    telephone: "+91 81159 53395",
+    telephone: "+91 81159 53195",
     priceRange: "₹₹",
     areaServed: areas.map(a => a.name),
     address: { "@type": "PostalAddress", addressLocality: "Nalasopara", addressRegion: "Maharashtra", postalCode: "401209", addressCountry: "IN" },
@@ -1160,7 +1187,7 @@ export default function Home() {
                   <h3 className="font-display text-xl font-bold text-white" style={{ letterSpacing: "-0.01em" }}>Request a Booking</h3>
                   <p className="mt-1 text-[14px] text-slate-400">We&apos;ll confirm within 30 minutes and schedule at your convenience.</p>
 
-                  <form className="mt-6 space-y-4" onSubmit={(e) => e.preventDefault()}>
+                  <form className="mt-6 space-y-4" onSubmit={handleSubmit}>
                     <div className="grid gap-4 sm:grid-cols-2">
                       <label className="block">
                         <span className="text-[12px] font-semibold text-slate-400 uppercase tracking-wider block mb-2">Full Name</span>
