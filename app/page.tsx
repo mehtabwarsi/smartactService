@@ -42,9 +42,9 @@ import { useEffect, useRef, useState, useCallback } from "react";
 /* ────────────────────────────────────────────────
    CONSTANTS
 ──────────────────────────────────────────────── */
-const PHONE = "+9181159533195";
+const PHONE = "81159533195";
 const PHONE_DISPLAY = "+91 81159 53395";
-const WHATSAPP = "https://wa.me/9181159533195";
+const WHATSAPP = "https://wa.me/81159533195";
 const EMAIL = "[EMAIL_ADDRESS]";
 
 /* ────────────────────────────────────────────────
