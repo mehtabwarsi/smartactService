@@ -85,7 +85,7 @@ export const metadata: Metadata = {
     images: ["https://smartacservice.in/og-image.jpg"],
   },
   verification: {
-    google: "your-google-site-verification",
+    google: "googlee254e8817ed63200",
   },
 };
 
