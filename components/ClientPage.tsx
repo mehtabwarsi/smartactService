@@ -398,10 +398,10 @@ export default function ClientPage({ seoContent, overrideH1, overrideHeroText }:
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://smartacservice.in",
+    "@id": "https://smartact-service.vercel.app",
     name: "Smart AC Service",
     description: "Premium AC repair, installation, gas filling and maintenance in Nalasopara, Vasai, Virar, Naigaon, Bhayandar and Mumbai.",
-    url: "https://smartacservice.in",
+    url: "https://smartact-service.vercel.app",
     telephone: "+91 81159 53195",
     priceRange: "₹₹",
     areaServed: areas.map(a => a.name),

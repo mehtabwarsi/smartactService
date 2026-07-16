@@ -89,11 +89,11 @@ export const metadata: Metadata = {
   title: '${svc.title}',
   description: '${svc.desc}',
   keywords: '${svc.keywords}',
-  alternates: { canonical: 'https://smartacservice.in/${svc.path}' },
+  alternates: { canonical: 'https://smartact-service.vercel.app/${svc.path}' },
   openGraph: {
     title: '${svc.title}',
     description: '${svc.desc}',
-    url: 'https://smartacservice.in/${svc.path}',
+    url: 'https://smartact-service.vercel.app/${svc.path}',
     siteName: 'Smart AC Service',
     locale: 'en_IN',
     type: 'website',

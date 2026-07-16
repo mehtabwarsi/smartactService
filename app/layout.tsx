@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://smartacservice.in"),
+  metadataBase: new URL("https://smartact-service.vercel.app"),
   title: {
     default: "Smart AC Service | AC Repair, Installation & Gas Filling in Nalasopara, Vasai & Virar",
     template: "%s | Smart AC Service",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   publisher: "Smart AC Service",
   category: "Home Services",
   alternates: {
-    canonical: "https://smartacservice.in",
+    canonical: "https://smartact-service.vercel.app",
   },
   robots: {
     index: true,
@@ -63,14 +63,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://smartacservice.in",
+    url: "https://smartact-service.vercel.app",
     siteName: "Smart AC Service",
     title: "Smart AC Service | AC Repair, Installation & Gas Filling",
     description:
       "Fast and reliable AC repair, installation, gas filling and maintenance service in Nalasopara, Vasai, Virar, Naigaon, Bhayandar and Mumbai. Same-day service available.",
     images: [
       {
-        url: "https://smartacservice.in/og-image.jpg",
+        url: "https://smartact-service.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Smart AC Service - Premium AC Repair in Nalasopara, Vasai & Virar",
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     title: "Smart AC Service | AC Repair & Installation",
     description:
       "Premium AC repair and installation service with same-day support and verified technicians. Serving Nalasopara, Vasai, Virar & Mumbai.",
-    images: ["https://smartacservice.in/og-image.jpg"],
+    images: ["https://smartact-service.vercel.app/og-image.jpg"],
   },
   verification: {
     google: "googlee254e8817ed63200",

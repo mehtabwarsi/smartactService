@@ -97,7 +97,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'AC Service & Repair Blog | Smart AC Service',
   description: 'Read the latest tips, guides, and expert advice on AC repair, maintenance, gas filling, and installation from the professionals at Smart AC Service.',
-  alternates: { canonical: 'https://smartacservice.in/blog' }
+  alternates: { canonical: 'https://smartact-service.vercel.app/blog' }
 };
 
 export default function BlogIndex() {
@@ -147,11 +147,11 @@ export const metadata: Metadata = {
   title: '${blog.title}',
   description: '${blog.desc}',
   keywords: '${blog.keywords}',
-  alternates: { canonical: 'https://smartacservice.in/blog/${blog.slug}' },
+  alternates: { canonical: 'https://smartact-service.vercel.app/blog/${blog.slug}' },
   openGraph: {
     title: '${blog.title}',
     description: '${blog.desc}',
-    url: 'https://smartacservice.in/blog/${blog.slug}',
+    url: 'https://smartact-service.vercel.app/blog/${blog.slug}',
     type: 'article',
   }
 };

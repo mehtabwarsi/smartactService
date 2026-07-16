@@ -84,11 +84,11 @@ export const metadata: Metadata = {
   title: '${page.title}',
   description: '${page.desc}',
   keywords: '${page.keywords}',
-  alternates: { canonical: 'https://smartacservice.in/${page.path}' },
+  alternates: { canonical: 'https://smartact-service.vercel.app/${page.path}' },
   openGraph: {
     title: '${page.title}',
     description: '${page.desc}',
-    url: 'https://smartacservice.in/${page.path}',
+    url: 'https://smartact-service.vercel.app/${page.path}',
     siteName: 'Smart AC Service',
     locale: 'en_IN',
     type: 'website',

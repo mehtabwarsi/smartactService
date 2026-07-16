@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: 'AC Repair Nalasopara | Best AC Service & Installation',
   description: 'Top-rated AC repair and service in Nalasopara East & West. We provide fast gas filling, deep cleaning, and AC installation near you. Call now!',
   keywords: 'AC Repair Nalasopara, AC Service Nalasopara, Split AC Repair Nalasopara, Window AC Repair Nalasopara, AC Installation Nalasopara',
-  alternates: { canonical: 'https://smartacservice.in/ac-repair-nalasopara' },
+  alternates: { canonical: 'https://smartact-service.vercel.app/ac-repair-nalasopara' },
   openGraph: {
     title: 'AC Repair Nalasopara | Best AC Service & Installation',
     description: 'Top-rated AC repair and service in Nalasopara East & West. We provide fast gas filling, deep cleaning, and AC installation near you. Call now!',
-    url: 'https://smartacservice.in/ac-repair-nalasopara',
+    url: 'https://smartact-service.vercel.app/ac-repair-nalasopara',
     siteName: 'Smart AC Service',
     locale: 'en_IN',
     type: 'website',

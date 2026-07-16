@@ -6,7 +6,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'AC Service & Repair Blog | Smart AC Service',
   description: 'Read the latest tips, guides, and expert advice on AC repair, maintenance, gas filling, and installation from the professionals at Smart AC Service.',
-  alternates: { canonical: 'https://smartacservice.in/blog' }
+  alternates: { canonical: 'https://smartact-service.vercel.app/blog' }
 };
 
 export default function BlogIndex() {
@@ -14,7 +14,7 @@ export default function BlogIndex() {
     <div className="py-12">
       <h2 className="text-3xl font-bold mb-8 text-gray-900">Latest AC Maintenance Guides</h2>
       <div className="grid gap-6 md:grid-cols-2">
-        
+
         <Link href="/blog/best-time-for-ac-service-in-mumbai" className="block p-6 rounded-2xl border border-gray-100 bg-white hover:shadow-lg transition-all">
           <h3 className="text-xl font-bold text-gray-900 mb-2">The Best Time for AC Service in Mumbai</h3>
           <p className="text-gray-500 text-sm">Discover the best time for AC service in Mumbai. Learn how pre-summer maintenance saves money, prevents breakdowns, and ensures optimal cooling.</p>
@@ -57,11 +57,11 @@ export default function BlogIndex() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getLocalBusinessSchema()) }} />
-      <ClientPage 
-        seoContent={seoContent} 
+      <ClientPage
+        seoContent={seoContent}
         overrideH1={
           <>
-            AC Service & Repair <br/>
+            AC Service & Repair <br />
             <span className="text-grad-brand">Knowledge Hub</span>
           </>
         }

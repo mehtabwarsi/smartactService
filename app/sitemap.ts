@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://smartacservice.in'
-  
+  const baseUrl = 'https://smartact-service.vercel.app'
+
   const routes = [
     '',
     '/ac-repair-nalasopara',

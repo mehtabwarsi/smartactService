@@ -63,7 +63,7 @@ import { getLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   title: 'Smart AC Service | AC Repair, Installation & Gas Filling',
   description: 'Fast and reliable AC repair, installation, gas filling and maintenance service in Nalasopara, Vasai, Virar, Naigaon, Bhayandar and Mumbai. Same-day service available.',
-  alternates: { canonical: 'https://smartacservice.in' }
+  alternates: { canonical: 'https://smartact-service.vercel.app' }
 };
 
 export default function Home() {
@@ -85,10 +85,10 @@ const seoTsContent = `export function getLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://smartacservice.in",
+    "@id": "https://smartact-service.vercel.app",
     "name": "Smart AC Service",
     "description": "Premium AC repair, installation, gas filling and maintenance in Nalasopara, Vasai, Virar, Naigaon, Bhayandar and Mumbai.",
-    "url": "https://smartacservice.in",
+    "url": "https://smartact-service.vercel.app",
     "telephone": "+91 81159 53195",
     "priceRange": "₹₹",
     "areaServed": ["Nalasopara", "Vasai", "Virar", "Naigaon", "Bhayandar", "Mumbai"],
