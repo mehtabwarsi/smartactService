@@ -17,6 +17,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://smartact-service.vercel.app"),
+  icons: {
+    icon: "./icon.png",
+    shortcut: './icon.png',
+    apple: './icon.png',
+  },
   title: {
     default: "Smart AC Service | AC Repair, Installation & Gas Filling in Nalasopara, Vasai & Virar",
     template: "%s | Smart AC Service",
