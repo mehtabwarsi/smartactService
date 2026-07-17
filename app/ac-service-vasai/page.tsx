@@ -45,11 +45,6 @@ export default function Page() {
         "areaServed": [
           "Vasai East", "Vasai West", "Evershine City", "Bhabola", "Ambadi Road", "Vasai Gaon", "Papdy", "Kaul Heritage", "Suncity", "Waliv", "Rajodi", "Sandor", "Agarwal Nagari"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "932"
-        }
       },
       {
         "@type": "Service",
@@ -111,7 +106,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">The Best AC Service in Vasai: Reliable & Affordable Cooling Solutions</h2>
         <p className="text-lg leading-relaxed mb-6">
           When the harsh summer hits, a functioning air conditioner in your home or office is essential. At <strong>Smart AC Service</strong>, we offer the most comprehensive <strong>AC service in Vasai</strong>. Whether you're dealing with an AC cooling problem in <strong>Vasai West</strong>, or you need emergency repairs in <strong>Vasai East</strong>, our team of highly trained technicians is ready to help. We are the trusted choice for residents in Evershine City, Bhabola, and Ambadi Road for quick, professional, and guaranteed AC solutions.
@@ -121,7 +116,7 @@ export default function Page() {
         <p className="mb-4">
           Finding a dependable <strong>AC technician in Vasai</strong> can be frustrating. Many local vendors and aggregators like Justdial, Sulekha, or Urban Company often connect you with unverified mechanics who lack expertise with modern inverter systems or charge hidden fees. Here’s why we stand out:
         </p>
-        
+
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-blue-50">
@@ -167,7 +162,7 @@ export default function Page() {
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Our Comprehensive AC Service Offerings in Vasai</h3>
-        
+
         <h4 className="text-xl font-medium text-gray-800 mt-6 mb-2">Split AC Service Vasai</h4>
         <p className="mb-4">Split air conditioners require regular maintenance to maintain optimal cooling and prevent major breakdowns. Our <strong>split AC service</strong> includes comprehensive deep cleaning, filter sanitization, electrical connection checks, and gas pressure monitoring to keep your unit running flawlessly.</p>
 
@@ -257,26 +252,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs) - AC Service in Vasai</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "How quickly can a technician reach my home in Vasai West?", a: "We typically dispatch a professional AC technician to Vasai West, Evershine City, and Bhabola within 30-45 minutes of your booking."},
-            {q: "What is included in a standard AC Service?", a: "Standard AC service includes cleaning the air filters, washing the indoor cooling coils, checking electrical connections, cleaning the outdoor condenser unit, and inspecting gas pressure."},
-            {q: "Is there a visiting charge if I only want an inspection?", a: "Yes, we have a nominal inspection fee of ₹299 to thoroughly diagnose the issue. However, if you choose to proceed with the repair, this inspection fee is 100% waived off."},
-            {q: "Do you repair Inverter AC PCBs?", a: "Yes, repairing Inverter AC PCBs is one of our specialties. Instead of forcing costly replacements, our electronic experts can often repair the existing PCB."},
-            {q: "My AC is leaking water inside the room. How can you fix it?", a: "AC water leakage usually occurs due to a clogged drain pipe or excessive dirt on the evaporator coil. We clear the blockage using pressure pumps or perform a deep foam jet cleaning."},
-            {q: "Which AC refrigerant gas is the best?", a: "There is no 'best' gas; your AC requires the specific gas it was designed for (R32, R410A, or older R22). We always use the exact manufacturer-specified, factory-grade refrigerant."},
-            {q: "Do you provide AC service in Vasai East as well?", a: "Absolutely. We have dedicated technicians serving all of Vasai East, including Waliv, Rajodi, and surrounding industrial/residential zones."},
-            {q: "How long does AC gas last?", a: "AC gas does not get 'consumed' like car fuel. If your AC needs a gas refill, it means there is a leak in the copper piping or condenser coils that must be brazed and fixed first."},
-            {q: "What is Foam Jet AC Cleaning?", a: "Foam Jet Cleaning involves applying biodegradable foam chemicals to the indoor coils to loosen deeply embedded dirt and mold, which is then washed away with a high-pressure water jet."},
-            {q: "Is it necessary to service my AC every year?", a: "Yes. Due to the high dust and humidity levels in Vasai, servicing your AC at least twice a year ensures better cooling, prevents major breakdowns, and significantly lowers electricity bills."},
-            {q: "Do you offer warranties on AC repairs?", a: "Yes, we provide a 30 to 90-day service warranty on our repair work, and up to 1-year warranty on major replaced components like compressors."},
-            {q: "Can you install an AC that I bought online?", a: "Yes, we provide professional AC installation for all brands, regardless of where you purchased the unit. We ensure proper flaring and vacuuming during installation."},
-            {q: "My AC outdoor unit is making a loud noise. What's wrong?", a: "A loud noise from the outdoor unit could indicate a loose fan blade, failing motor bearings, or a worn-out compressor rubber mount. It requires immediate attention."},
-            {q: "Do you service commercial cassette ACs in Vasai?", a: "Yes, we provide specialized service and repair for commercial cassette ACs, ductable units, and tower ACs commonly used in offices and restaurants."},
-            {q: "Why is my AC tripping the MCB switch?", a: "An AC tripping the MCB indicates a serious electrical short circuit, a grounded compressor, or a faulty capacitor. Turn off the AC immediately and call our emergency repair team."},
-            {q: "Do you use genuine spare parts?", a: "100% yes. We strictly use genuine OEM (Original Equipment Manufacturer) parts to ensure the longevity and safety of your air conditioner."},
-            {q: "What areas nearby do you serve apart from Vasai?", a: "Our service network extends to Nalasopara, Virar, Naigaon, and Bhayandar."},
-            {q: "Are your technicians background-verified?", a: "Yes, every technician undergoes a rigorous background check and continuous technical training before they are dispatched to customer homes."},
-            {q: "What payment methods are accepted?", a: "We accept Cash, UPI (Google Pay, PhonePe, Amazon Pay), and IMPS online transfers upon successful completion of the service."},
-            {q: "How do I book a service?", a: "Booking is easy! You can call us at +91 81159 53195, message us on WhatsApp, or fill out the booking form on our website."}
+            { q: "How quickly can a technician reach my home in Vasai West?", a: "We typically dispatch a professional AC technician to Vasai West, Evershine City, and Bhabola within 30-45 minutes of your booking." },
+            { q: "What is included in a standard AC Service?", a: "Standard AC service includes cleaning the air filters, washing the indoor cooling coils, checking electrical connections, cleaning the outdoor condenser unit, and inspecting gas pressure." },
+            { q: "Is there a visiting charge if I only want an inspection?", a: "Yes, we have a nominal inspection fee of ₹299 to thoroughly diagnose the issue. However, if you choose to proceed with the repair, this inspection fee is 100% waived off." },
+            { q: "Do you repair Inverter AC PCBs?", a: "Yes, repairing Inverter AC PCBs is one of our specialties. Instead of forcing costly replacements, our electronic experts can often repair the existing PCB." },
+            { q: "My AC is leaking water inside the room. How can you fix it?", a: "AC water leakage usually occurs due to a clogged drain pipe or excessive dirt on the evaporator coil. We clear the blockage using pressure pumps or perform a deep foam jet cleaning." },
+            { q: "Which AC refrigerant gas is the best?", a: "There is no 'best' gas; your AC requires the specific gas it was designed for (R32, R410A, or older R22). We always use the exact manufacturer-specified, factory-grade refrigerant." },
+            { q: "Do you provide AC service in Vasai East as well?", a: "Absolutely. We have dedicated technicians serving all of Vasai East, including Waliv, Rajodi, and surrounding industrial/residential zones." },
+            { q: "How long does AC gas last?", a: "AC gas does not get 'consumed' like car fuel. If your AC needs a gas refill, it means there is a leak in the copper piping or condenser coils that must be brazed and fixed first." },
+            { q: "What is Foam Jet AC Cleaning?", a: "Foam Jet Cleaning involves applying biodegradable foam chemicals to the indoor coils to loosen deeply embedded dirt and mold, which is then washed away with a high-pressure water jet." },
+            { q: "Is it necessary to service my AC every year?", a: "Yes. Due to the high dust and humidity levels in Vasai, servicing your AC at least twice a year ensures better cooling, prevents major breakdowns, and significantly lowers electricity bills." },
+            { q: "Do you offer warranties on AC repairs?", a: "Yes, we provide a 30 to 90-day service warranty on our repair work, and up to 1-year warranty on major replaced components like compressors." },
+            { q: "Can you install an AC that I bought online?", a: "Yes, we provide professional AC installation for all brands, regardless of where you purchased the unit. We ensure proper flaring and vacuuming during installation." },
+            { q: "My AC outdoor unit is making a loud noise. What's wrong?", a: "A loud noise from the outdoor unit could indicate a loose fan blade, failing motor bearings, or a worn-out compressor rubber mount. It requires immediate attention." },
+            { q: "Do you service commercial cassette ACs in Vasai?", a: "Yes, we provide specialized service and repair for commercial cassette ACs, ductable units, and tower ACs commonly used in offices and restaurants." },
+            { q: "Why is my AC tripping the MCB switch?", a: "An AC tripping the MCB indicates a serious electrical short circuit, a grounded compressor, or a faulty capacitor. Turn off the AC immediately and call our emergency repair team." },
+            { q: "Do you use genuine spare parts?", a: "100% yes. We strictly use genuine OEM (Original Equipment Manufacturer) parts to ensure the longevity and safety of your air conditioner." },
+            { q: "What areas nearby do you serve apart from Vasai?", a: "Our service network extends to Nalasopara, Virar, Naigaon, and Bhayandar." },
+            { q: "Are your technicians background-verified?", a: "Yes, every technician undergoes a rigorous background check and continuous technical training before they are dispatched to customer homes." },
+            { q: "What payment methods are accepted?", a: "We accept Cash, UPI (Google Pay, PhonePe, Amazon Pay), and IMPS online transfers upon successful completion of the service." },
+            { q: "How do I book a service?", a: "Booking is easy! You can call us at +91 81159 53195, message us on WhatsApp, or fill out the booking form on our website." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>

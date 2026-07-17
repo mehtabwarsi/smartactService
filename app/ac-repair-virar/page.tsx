@@ -45,11 +45,6 @@ export default function Page() {
         "areaServed": [
           "Virar East", "Virar West", "Global City", "Bolinj", "Agashi", "Arnala", "Narangi", "Phoolpada", "Y K Nagar", "Manvelpada", "Viva College Area", "Gokul Township"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1045"
-        }
       },
       {
         "@type": "Service",
@@ -111,7 +106,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Unmatched AC Repair in Virar: Your Ultimate Cooling Partner</h2>
         <p className="text-lg leading-relaxed mb-6">
           The sweltering heat of <strong>Virar</strong> can make life unbearable if your air conditioner stops functioning. When you are looking for prompt and professional <strong>AC repair in Virar</strong>, <strong>Smart AC Service</strong> is the name you can trust. Whether you are living near the bustling <strong>Viva College Area</strong>, residing in the peaceful <strong>Gokul Township</strong>, or running a business in <strong>Virar East</strong>, our certified AC technicians are equipped to handle every cooling challenge instantly. We provide a hassle-free, fully guaranteed service experience right at your doorstep.
@@ -121,7 +116,7 @@ export default function Page() {
         <p className="mb-4">
           Many homeowners in Virar get frustrated dealing with unverified mechanics from apps like Urban Company, Sulekha, or Justdial, who often charge hidden fees and offer zero warranties. We believe in transparency and absolute professionalism. Here is a direct comparison of why we are the top-rated <strong>AC service provider in Virar</strong>:
         </p>
-        
+
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-blue-50">
@@ -167,7 +162,7 @@ export default function Page() {
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Complete AC Solutions: Services We Provide</h3>
-        
+
         <h4 className="text-xl font-medium text-gray-800 mt-6 mb-2">Expert Split AC Repair Virar</h4>
         <p className="mb-4">Split ACs offer great cooling but are prone to specific issues like blocked drain pipes, faulty blower motors, and sensor failures. Our <strong>split AC repair</strong> specialists utilize advanced diagnostic tools to resolve any issue right on the spot, ensuring your room gets chilled quickly and quietly.</p>
 
@@ -257,26 +252,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs) - AC Repair Virar</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "How fast can you repair my AC in Global City, Virar?", a: "We typically dispatch a professional AC technician to Global City and nearby Virar West areas within 30-45 minutes of receiving your booking."},
-            {q: "Do you charge a visiting fee if I decide not to get the repair done?", a: "We have a highly affordable inspection fee of ₹299 to correctly diagnose your AC's issue. However, if you choose to proceed with our repair quote, this fee is 100% waived."},
-            {q: "Can you fix a dripping indoor AC unit?", a: "Yes, AC water leakage is a very common issue we fix daily. It usually happens due to a blocked drainage pipe or heavily soiled evaporator coils. We clear the blockage and clean the unit thoroughly."},
-            {q: "Is it safe to refill AC gas without checking for leaks?", a: "No, it is a bad practice. AC gas doesn't simply 'run out'. If gas is low, there is a leak. We perform rigorous nitrogen pressure testing to find and braze the leak before refilling the gas."},
-            {q: "Do you service Inverter AC models in Virar?", a: "Absolutely! Our technicians undergo specialized training to handle the complex electronics, PCBs, and variable speed compressors of modern Inverter AC units."},
-            {q: "What does Foam Jet AC Cleaning involve?", a: "Foam Jet Cleaning uses specialized anti-bacterial chemical foam and a high-pressure water jet machine to deep clean the indoor and outdoor coils. It removes deeply embedded dirt that normal washing misses."},
-            {q: "Do you offer any warranty on AC repairs?", a: "Yes, customer trust is our priority. We provide a 30 to 90-day service warranty on our repairs and a manufacturer-backed warranty on genuine spare parts like capacitors and compressors."},
-            {q: "My AC trips the main switch (MCB) when turned on. What's wrong?", a: "This is a serious electrical fault. It usually points to a short-circuited compressor, faulty wiring, or a burnt capacitor. Do not attempt to turn it on again; call our emergency repair team immediately."},
-            {q: "Which refrigerant gases do you use?", a: "We only use premium, factory-grade refrigerants strictly according to your AC manufacturer's specifications. We stock R32, R410A, and R22 gases."},
-            {q: "Do you repair commercial Cassette ACs?", a: "Yes, we handle commercial cooling requirements in Virar, including the repair, installation, and maintenance of Cassette ACs, ductable units, and tower ACs."},
-            {q: "Can you help shift my AC from Virar East to Virar West?", a: "Yes, we provide end-to-end AC shifting services. We safely uninstall the unit (pumping the gas down to prevent loss), transport it, and reinstall it perfectly at your new location."},
-            {q: "Why is ice forming on my AC's copper pipes?", a: "Ice formation usually indicates two things: either your refrigerant gas level is critically low due to a leak, or the indoor cooling coil is severely choked with dust, preventing proper airflow."},
-            {q: "Do you use duplicate or local spare parts?", a: "Never. We strictly use 100% genuine OEM (Original Equipment Manufacturer) spare parts. Using substandard parts can permanently damage your air conditioner."},
-            {q: "How often should I service my AC in Virar?", a: "Due to the local dust and coastal humidity, we strongly recommend servicing your AC at least twice a year—ideally right before summer and right after the monsoon season."},
-            {q: "Can a dirty AC cause my electricity bill to increase?", a: "Yes, significantly. A dirty AC forces the compressor to work much harder and run longer to cool the room, which can increase power consumption by up to 30%."},
-            {q: "What areas in Virar do you cover?", a: "We cover all of Virar, including Virar East, Virar West, Global City, Bolinj, Agashi, Arnala, Narangi, Phoolpada, Y K Nagar, Manvelpada, Viva College Area, and Gokul Township."},
-            {q: "Are your AC technicians certified and verified?", a: "Yes, every technician at Smart AC Service undergoes strict background verification and rigorous technical training before they are allowed to visit a customer's home."},
-            {q: "Do you provide Annual Maintenance Contracts (AMC)?", a: "Yes, our AMC plans are designed to give you peace of mind. They include multiple routine services, priority breakdown attendance, and discounts on any necessary repairs."},
-            {q: "What happens if the same problem occurs after repair?", a: "If the exact same issue reoccurs within our warranty period, we will send a technician to fix it again completely free of charge."},
-            {q: "How can I book an AC technician right now?", a: "Booking is incredibly easy. Just click the WhatsApp button on our website or call us directly at +91 81159 53195. We confirm bookings instantly."}
+            { q: "How fast can you repair my AC in Global City, Virar?", a: "We typically dispatch a professional AC technician to Global City and nearby Virar West areas within 30-45 minutes of receiving your booking." },
+            { q: "Do you charge a visiting fee if I decide not to get the repair done?", a: "We have a highly affordable inspection fee of ₹299 to correctly diagnose your AC's issue. However, if you choose to proceed with our repair quote, this fee is 100% waived." },
+            { q: "Can you fix a dripping indoor AC unit?", a: "Yes, AC water leakage is a very common issue we fix daily. It usually happens due to a blocked drainage pipe or heavily soiled evaporator coils. We clear the blockage and clean the unit thoroughly." },
+            { q: "Is it safe to refill AC gas without checking for leaks?", a: "No, it is a bad practice. AC gas doesn't simply 'run out'. If gas is low, there is a leak. We perform rigorous nitrogen pressure testing to find and braze the leak before refilling the gas." },
+            { q: "Do you service Inverter AC models in Virar?", a: "Absolutely! Our technicians undergo specialized training to handle the complex electronics, PCBs, and variable speed compressors of modern Inverter AC units." },
+            { q: "What does Foam Jet AC Cleaning involve?", a: "Foam Jet Cleaning uses specialized anti-bacterial chemical foam and a high-pressure water jet machine to deep clean the indoor and outdoor coils. It removes deeply embedded dirt that normal washing misses." },
+            { q: "Do you offer any warranty on AC repairs?", a: "Yes, customer trust is our priority. We provide a 30 to 90-day service warranty on our repairs and a manufacturer-backed warranty on genuine spare parts like capacitors and compressors." },
+            { q: "My AC trips the main switch (MCB) when turned on. What's wrong?", a: "This is a serious electrical fault. It usually points to a short-circuited compressor, faulty wiring, or a burnt capacitor. Do not attempt to turn it on again; call our emergency repair team immediately." },
+            { q: "Which refrigerant gases do you use?", a: "We only use premium, factory-grade refrigerants strictly according to your AC manufacturer's specifications. We stock R32, R410A, and R22 gases." },
+            { q: "Do you repair commercial Cassette ACs?", a: "Yes, we handle commercial cooling requirements in Virar, including the repair, installation, and maintenance of Cassette ACs, ductable units, and tower ACs." },
+            { q: "Can you help shift my AC from Virar East to Virar West?", a: "Yes, we provide end-to-end AC shifting services. We safely uninstall the unit (pumping the gas down to prevent loss), transport it, and reinstall it perfectly at your new location." },
+            { q: "Why is ice forming on my AC's copper pipes?", a: "Ice formation usually indicates two things: either your refrigerant gas level is critically low due to a leak, or the indoor cooling coil is severely choked with dust, preventing proper airflow." },
+            { q: "Do you use duplicate or local spare parts?", a: "Never. We strictly use 100% genuine OEM (Original Equipment Manufacturer) spare parts. Using substandard parts can permanently damage your air conditioner." },
+            { q: "How often should I service my AC in Virar?", a: "Due to the local dust and coastal humidity, we strongly recommend servicing your AC at least twice a year—ideally right before summer and right after the monsoon season." },
+            { q: "Can a dirty AC cause my electricity bill to increase?", a: "Yes, significantly. A dirty AC forces the compressor to work much harder and run longer to cool the room, which can increase power consumption by up to 30%." },
+            { q: "What areas in Virar do you cover?", a: "We cover all of Virar, including Virar East, Virar West, Global City, Bolinj, Agashi, Arnala, Narangi, Phoolpada, Y K Nagar, Manvelpada, Viva College Area, and Gokul Township." },
+            { q: "Are your AC technicians certified and verified?", a: "Yes, every technician at Smart AC Service undergoes strict background verification and rigorous technical training before they are allowed to visit a customer's home." },
+            { q: "Do you provide Annual Maintenance Contracts (AMC)?", a: "Yes, our AMC plans are designed to give you peace of mind. They include multiple routine services, priority breakdown attendance, and discounts on any necessary repairs." },
+            { q: "What happens if the same problem occurs after repair?", a: "If the exact same issue reoccurs within our warranty period, we will send a technician to fix it again completely free of charge." },
+            { q: "How can I book an AC technician right now?", a: "Booking is incredibly easy. Just click the WhatsApp button on our website or call us directly at +91 81159 53195. We confirm bookings instantly." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>

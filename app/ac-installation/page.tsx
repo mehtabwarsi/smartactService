@@ -40,11 +40,6 @@ export default function Page() {
         "areaServed": [
           "Nalasopara", "Vasai", "Virar", "Naigaon", "Bhayandar"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1350"
-        }
       },
       {
         "@type": "Service",
@@ -108,7 +103,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Professional AC Installation Services: Done Right the First Time</h2>
         <p className="text-lg leading-relaxed mb-6">
           Buying a new air conditioner is a significant investment. However, even the most expensive, top-tier AC will fail to cool efficiently if it is installed incorrectly. Proper <strong>AC installation</strong> is a highly technical job requiring precision, specialized tools, and a deep understanding of thermodynamics and electrical safety. At <strong>Smart AC Service</strong>, we are the leading experts for flawless <strong>AC installation near me</strong>. We proudly serve residential and commercial clients across <a href="/ac-repair-nalasopara" className="text-blue-600 underline hover:text-blue-800">Nalasopara</a>, <a href="/ac-service-vasai" className="text-blue-600 underline hover:text-blue-800">Vasai</a>, <a href="/ac-repair-virar" className="text-blue-600 underline hover:text-blue-800">Virar</a>, <a href="/ac-service-naigaon" className="text-blue-600 underline hover:text-blue-800">Naigaon</a>, and <a href="/ac-repair-bhayandar" className="text-blue-600 underline hover:text-blue-800">Bhayandar</a>.
@@ -256,26 +251,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs) - AC Installation</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "How much does AC installation cost?", a: "Standard split AC installation charges start from ₹1,299, and Window AC installation starts at ₹899. Additional materials like extra copper pipes or outdoor brackets are charged extra based on actual usage."},
-            {q: "Do you provide AC installation on the same day?", a: "Yes, we guarantee same-day AC installation across Nalasopara, Vasai, Virar, Naigaon, and Bhayandar, subject to early booking."},
-            {q: "Is it necessary to use a vacuum pump during installation?", a: "100% yes. Vacuuming removes air and moisture from the copper lines. Without it, moisture mixes with refrigerant, creating sludge that destroys the compressor. It is mandatory for R32 and R410A gases."},
-            {q: "What is included in standard split AC installation?", a: "It includes mounting the indoor unit, drilling one hole in the wall, mounting the outdoor unit (bracket extra), connecting the standard copper/drain pipes provided in the box, vacuuming, and testing."},
-            {q: "Do you supply the outdoor bracket stand?", a: "Yes, we carry premium, heavy-duty, powder-coated MS brackets. They are highly rust-resistant and safely support the heavy outdoor compressor unit. (Cost is additional)."},
-            {q: "What if the copper pipe provided by the brand is too short?", a: "We provide high-quality copper pipe extensions. Our experts meticulously braze or flare the new piping to the existing line and insulate it thoroughly to prevent cooling loss."},
-            {q: "Will you do the electrical wiring?", a: "We connect the electrical wires between the indoor and outdoor units. However, bringing the main power supply from your home's MCB board to the AC switch requires an electrician."},
-            {q: "Do I need permission to install an outdoor unit?", a: "If you live in a high-rise society in areas like Global City (Virar) or Yashwant Gaurav (Nalasopara), you may need society permission to mount the outdoor unit on the exterior facade."},
-            {q: "What happens if my newly installed AC leaks water indoors?", a: "Indoor water leakage immediately after installation is a sign of an improper drain pipe slope or an un-leveled indoor unit. We provide a 30-day installation warranty to fix any such issues instantly."},
-            {q: "Can you install an AC purchased online from Amazon or Flipkart?", a: "Absolutely. Whether you bought your AC locally from Croma/Reliance or online, we provide professional installation services for all brands."},
-            {q: "How much time does it take to install a split AC?", a: "A standard split AC installation takes approximately 1.5 to 2 hours. Complex installations requiring scaffolding or long pipe extensions may take longer."},
-            {q: "Do you provide AC uninstallation and shifting?", a: "Yes, we provide end-to-end AC shifting. We safely uninstall the old unit by pumping down the refrigerant (to save your gas), transport it, and reinstall it at your new location."},
-            {q: "What is core cutting, and do you do it?", a: "Core cutting uses a specialized diamond drill to make a perfectly clean, round hole in a concrete wall for the copper pipes to pass through, without damaging the paint. We arrange core cutting at an additional cost."},
-            {q: "Is gas charging required during a new AC installation?", a: "No. Brand new outdoor units come pre-charged with sufficient refrigerant gas for the standard pipe length (usually 3 meters). Gas is only added if pipe length exceeds the manufacturer's limit."},
-            {q: "Can you install a Cassette or Commercial AC?", a: "Yes, our senior technicians specialize in commercial AC installation, including cassette ACs, ductable units, and heavy-duty tower ACs for offices and restaurants."},
-            {q: "Where is the best place to mount the indoor unit?", a: "The indoor unit should be mounted high on a wall with at least 6 inches of clearance from the ceiling for proper air intake. It should face the seating area for maximum cooling efficiency."},
-            {q: "Where should the outdoor unit be placed?", a: "The outdoor unit must be placed in a well-ventilated, accessible area (for future servicing), away from direct prolonged sunlight if possible, and on a sturdy, level bracket."},
-            {q: "Do you offer any warranty on installation?", a: "Yes, we provide a 30-day warranty on our installation workmanship, covering gas leaks from flare joints and mounting stability issues."},
-            {q: "Why do you insist on premium copper pipes?", a: "Cheap, thin copper pipes cannot handle the extreme operating pressures of modern Inverter ACs (especially those using R32 gas) and will burst or leak. We only use thick-gauge copper."},
-            {q: "How can I book an AC installation appointment?", a: "It’s very easy. Click the WhatsApp button or call us directly at +91 81159 53195. We will schedule a technician visit immediately."}
+            { q: "How much does AC installation cost?", a: "Standard split AC installation charges start from ₹1,299, and Window AC installation starts at ₹899. Additional materials like extra copper pipes or outdoor brackets are charged extra based on actual usage." },
+            { q: "Do you provide AC installation on the same day?", a: "Yes, we guarantee same-day AC installation across Nalasopara, Vasai, Virar, Naigaon, and Bhayandar, subject to early booking." },
+            { q: "Is it necessary to use a vacuum pump during installation?", a: "100% yes. Vacuuming removes air and moisture from the copper lines. Without it, moisture mixes with refrigerant, creating sludge that destroys the compressor. It is mandatory for R32 and R410A gases." },
+            { q: "What is included in standard split AC installation?", a: "It includes mounting the indoor unit, drilling one hole in the wall, mounting the outdoor unit (bracket extra), connecting the standard copper/drain pipes provided in the box, vacuuming, and testing." },
+            { q: "Do you supply the outdoor bracket stand?", a: "Yes, we carry premium, heavy-duty, powder-coated MS brackets. They are highly rust-resistant and safely support the heavy outdoor compressor unit. (Cost is additional)." },
+            { q: "What if the copper pipe provided by the brand is too short?", a: "We provide high-quality copper pipe extensions. Our experts meticulously braze or flare the new piping to the existing line and insulate it thoroughly to prevent cooling loss." },
+            { q: "Will you do the electrical wiring?", a: "We connect the electrical wires between the indoor and outdoor units. However, bringing the main power supply from your home's MCB board to the AC switch requires an electrician." },
+            { q: "Do I need permission to install an outdoor unit?", a: "If you live in a high-rise society in areas like Global City (Virar) or Yashwant Gaurav (Nalasopara), you may need society permission to mount the outdoor unit on the exterior facade." },
+            { q: "What happens if my newly installed AC leaks water indoors?", a: "Indoor water leakage immediately after installation is a sign of an improper drain pipe slope or an un-leveled indoor unit. We provide a 30-day installation warranty to fix any such issues instantly." },
+            { q: "Can you install an AC purchased online from Amazon or Flipkart?", a: "Absolutely. Whether you bought your AC locally from Croma/Reliance or online, we provide professional installation services for all brands." },
+            { q: "How much time does it take to install a split AC?", a: "A standard split AC installation takes approximately 1.5 to 2 hours. Complex installations requiring scaffolding or long pipe extensions may take longer." },
+            { q: "Do you provide AC uninstallation and shifting?", a: "Yes, we provide end-to-end AC shifting. We safely uninstall the old unit by pumping down the refrigerant (to save your gas), transport it, and reinstall it at your new location." },
+            { q: "What is core cutting, and do you do it?", a: "Core cutting uses a specialized diamond drill to make a perfectly clean, round hole in a concrete wall for the copper pipes to pass through, without damaging the paint. We arrange core cutting at an additional cost." },
+            { q: "Is gas charging required during a new AC installation?", a: "No. Brand new outdoor units come pre-charged with sufficient refrigerant gas for the standard pipe length (usually 3 meters). Gas is only added if pipe length exceeds the manufacturer's limit." },
+            { q: "Can you install a Cassette or Commercial AC?", a: "Yes, our senior technicians specialize in commercial AC installation, including cassette ACs, ductable units, and heavy-duty tower ACs for offices and restaurants." },
+            { q: "Where is the best place to mount the indoor unit?", a: "The indoor unit should be mounted high on a wall with at least 6 inches of clearance from the ceiling for proper air intake. It should face the seating area for maximum cooling efficiency." },
+            { q: "Where should the outdoor unit be placed?", a: "The outdoor unit must be placed in a well-ventilated, accessible area (for future servicing), away from direct prolonged sunlight if possible, and on a sturdy, level bracket." },
+            { q: "Do you offer any warranty on installation?", a: "Yes, we provide a 30-day warranty on our installation workmanship, covering gas leaks from flare joints and mounting stability issues." },
+            { q: "Why do you insist on premium copper pipes?", a: "Cheap, thin copper pipes cannot handle the extreme operating pressures of modern Inverter ACs (especially those using R32 gas) and will burst or leak. We only use thick-gauge copper." },
+            { q: "How can I book an AC installation appointment?", a: "It’s very easy. Click the WhatsApp button or call us directly at +91 81159 53195. We will schedule a technician visit immediately." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>

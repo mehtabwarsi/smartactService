@@ -40,11 +40,6 @@ export default function Page() {
         "areaServed": [
           "Nalasopara", "Vasai", "Virar", "Naigaon", "Bhayandar"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1732"
-        }
       },
       {
         "@type": "Service",
@@ -108,7 +103,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Expert Split AC Repair: Fast, Reliable, and Guaranteed</h2>
         <p className="text-lg leading-relaxed mb-6">
           Split Air Conditioners offer the best cooling performance and whisper-quiet operation, but they are highly complex machines. When a Split AC breaks down, you need a specialized <strong>Split AC technician</strong> who understands complicated Inverter PCBs, complex copper piping networks, and delicate sensors. Whether you are dealing with a <strong>Split AC not cooling</strong> in <a href="/ac-repair-nalasopara" className="text-blue-600 underline hover:text-blue-800">Nalasopara</a>, severe <strong>Split AC water leakage</strong> in <a href="/ac-service-vasai" className="text-blue-600 underline hover:text-blue-800">Vasai</a>, or a dead compressor in <a href="/ac-repair-virar" className="text-blue-600 underline hover:text-blue-800">Virar</a>, <strong>Smart AC Service</strong> provides immediate, guaranteed solutions across <a href="/ac-service-naigaon" className="text-blue-600 underline hover:text-blue-800">Naigaon</a> and <a href="/ac-repair-bhayandar" className="text-blue-600 underline hover:text-blue-800">Bhayandar</a>.
@@ -138,7 +133,7 @@ export default function Page() {
         <p className="mb-4">
           Don't trust your expensive Split AC with unverified mechanics from aggregators like Justdial or Urban Company. Here is how our specialized <strong>Split AC repair service</strong> stands apart:
         </p>
-        
+
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-blue-50">
@@ -232,26 +227,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs) - Split AC Repair</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "Why is my Split AC indoor unit leaking water?", a: "This is primarily caused by a clogged drain pipe. When dust mixes with condensation, it forms an algae sludge that blocks the pipe, causing water to overflow from the drain pan into your room. We flush it out with a high-pressure pump."},
-            {q: "My Split AC turns on, but it is not cooling. Why?", a: "The most common reasons are: severe dust blocking the cooling coils, a gas leak (low refrigerant), or a dead start capacitor in the outdoor unit which prevents the compressor from turning on."},
-            {q: "Why is the AC displaying an error code and blinking lights?", a: "Blinking lights and error codes (like CH38 on LG or E4 on Voltas) indicate a communication error between the indoor and outdoor units, a faulty sensor, or a damaged PCB. Our technicians use brand-specific manuals to decode and fix these errors."},
-            {q: "Can you fix an Inverter AC PCB?", a: "Yes. While official service centers usually force you to buy a brand-new PCB, our expert electronic technicians can often repair your existing PCB by replacing burnt ICs or relays, saving you a lot of money."},
-            {q: "Why shouldn't I just top up the gas?", a: "An AC is a closed system. Gas never 'finishes'. If it is low, it means there is a physical leak. Topping up gas without brazing (welding) the leak is a scam, as the new gas will just leak out again."},
-            {q: "Is vacuuming necessary before gas filling?", a: "Absolutely. If ambient air and moisture are left inside the copper pipes, they react with the refrigerant to form an acid that burns out the compressor. We mandate the use of a vacuum pump for all gas refills."},
-            {q: "Why is my outdoor unit making a very loud noise?", a: "A loud rattling or screaming noise from the outdoor unit usually means the fan motor bearings have shattered, the fan blade is broken, or the compressor mounts have rusted away."},
-            {q: "Do you repair the Split AC remote?", a: "We do not repair remotes, as buying a universal or replacement remote is much cheaper and faster. However, if the AC's internal display receiver is faulty, we can repair that."},
-            {q: "What is an AC capacitor and why does it fail?", a: "A capacitor acts like a heavy-duty battery that gives the compressor a massive jolt of electricity to start running. They frequently burn out due to power spikes or intense summer heat. We replace them on the spot."},
-            {q: "How long does a Split AC repair take?", a: "Minor issues like capacitor replacements or water leak flushes take 30 minutes. Gas charging with nitrogen leak testing takes about 1.5 to 2 hours. Complex PCB repairs may require us to take the board to our lab for 24 hours."},
-            {q: "Do you use original brand spare parts?", a: "Yes. We strictly use 100% genuine OEM spare parts. Using cheap duplicate capacitors or sensors will cause the AC to break down again rapidly."},
-            {q: "Why is ice forming on the copper pipes of my AC?", a: "Ice formation is ironically a sign of low refrigerant gas. The low pressure causes the evaporator coil to drop below freezing, turning ambient humidity into solid ice."},
-            {q: "Do you offer a warranty on repairs?", a: "Yes, customer trust is our foundation. We provide a 30 to 90-day service warranty on our repair workmanship and honor the manufacturer's warranty on new spare parts."},
-            {q: "My AC trips the main MCB switch immediately. What should I do?", a: "Turn the AC off immediately. This is a dead short circuit, usually caused by a burnt compressor terminal or melted internal wiring. Do not try to turn it back on; call our emergency repair team."},
-            {q: "Can a dirty AC increase my electricity bill?", a: "Yes, by up to 30%. When the coils are choked with dust, the compressor has to work much harder and run much longer to cool the room, drawing maximum amps."},
-            {q: "Do you provide Annual Maintenance Contracts (AMC) for Split ACs?", a: "Yes, we offer highly affordable AMC plans that include routine deep cleaning, priority breakdown support, and spare part discounts to prevent these very repairs."},
-            {q: "Will repairing my 12-year-old AC save me money?", a: "Usually, no. If a 12-year-old AC suffers a major compressor failure, the repair cost is high. We will honestly advise you if replacing it with a new Inverter AC is a better financial decision."},
-            {q: "What if the same problem happens again?", a: "If the exact same issue reoccurs within our warranty period, we will send a technician to fix it again completely free of charge."},
-            {q: "Are your Split AC technicians verified?", a: "Yes, every technician undergoes strict background verification and rigorous technical training before they are allowed to enter a customer's home."},
-            {q: "How do I book a repair right now?", a: "Click the WhatsApp button on our website for an instant chat, or call us directly at +91 81159 53195. We will dispatch a technician to your address immediately."}
+            { q: "Why is my Split AC indoor unit leaking water?", a: "This is primarily caused by a clogged drain pipe. When dust mixes with condensation, it forms an algae sludge that blocks the pipe, causing water to overflow from the drain pan into your room. We flush it out with a high-pressure pump." },
+            { q: "My Split AC turns on, but it is not cooling. Why?", a: "The most common reasons are: severe dust blocking the cooling coils, a gas leak (low refrigerant), or a dead start capacitor in the outdoor unit which prevents the compressor from turning on." },
+            { q: "Why is the AC displaying an error code and blinking lights?", a: "Blinking lights and error codes (like CH38 on LG or E4 on Voltas) indicate a communication error between the indoor and outdoor units, a faulty sensor, or a damaged PCB. Our technicians use brand-specific manuals to decode and fix these errors." },
+            { q: "Can you fix an Inverter AC PCB?", a: "Yes. While official service centers usually force you to buy a brand-new PCB, our expert electronic technicians can often repair your existing PCB by replacing burnt ICs or relays, saving you a lot of money." },
+            { q: "Why shouldn't I just top up the gas?", a: "An AC is a closed system. Gas never 'finishes'. If it is low, it means there is a physical leak. Topping up gas without brazing (welding) the leak is a scam, as the new gas will just leak out again." },
+            { q: "Is vacuuming necessary before gas filling?", a: "Absolutely. If ambient air and moisture are left inside the copper pipes, they react with the refrigerant to form an acid that burns out the compressor. We mandate the use of a vacuum pump for all gas refills." },
+            { q: "Why is my outdoor unit making a very loud noise?", a: "A loud rattling or screaming noise from the outdoor unit usually means the fan motor bearings have shattered, the fan blade is broken, or the compressor mounts have rusted away." },
+            { q: "Do you repair the Split AC remote?", a: "We do not repair remotes, as buying a universal or replacement remote is much cheaper and faster. However, if the AC's internal display receiver is faulty, we can repair that." },
+            { q: "What is an AC capacitor and why does it fail?", a: "A capacitor acts like a heavy-duty battery that gives the compressor a massive jolt of electricity to start running. They frequently burn out due to power spikes or intense summer heat. We replace them on the spot." },
+            { q: "How long does a Split AC repair take?", a: "Minor issues like capacitor replacements or water leak flushes take 30 minutes. Gas charging with nitrogen leak testing takes about 1.5 to 2 hours. Complex PCB repairs may require us to take the board to our lab for 24 hours." },
+            { q: "Do you use original brand spare parts?", a: "Yes. We strictly use 100% genuine OEM spare parts. Using cheap duplicate capacitors or sensors will cause the AC to break down again rapidly." },
+            { q: "Why is ice forming on the copper pipes of my AC?", a: "Ice formation is ironically a sign of low refrigerant gas. The low pressure causes the evaporator coil to drop below freezing, turning ambient humidity into solid ice." },
+            { q: "Do you offer a warranty on repairs?", a: "Yes, customer trust is our foundation. We provide a 30 to 90-day service warranty on our repair workmanship and honor the manufacturer's warranty on new spare parts." },
+            { q: "My AC trips the main MCB switch immediately. What should I do?", a: "Turn the AC off immediately. This is a dead short circuit, usually caused by a burnt compressor terminal or melted internal wiring. Do not try to turn it back on; call our emergency repair team." },
+            { q: "Can a dirty AC increase my electricity bill?", a: "Yes, by up to 30%. When the coils are choked with dust, the compressor has to work much harder and run much longer to cool the room, drawing maximum amps." },
+            { q: "Do you provide Annual Maintenance Contracts (AMC) for Split ACs?", a: "Yes, we offer highly affordable AMC plans that include routine deep cleaning, priority breakdown support, and spare part discounts to prevent these very repairs." },
+            { q: "Will repairing my 12-year-old AC save me money?", a: "Usually, no. If a 12-year-old AC suffers a major compressor failure, the repair cost is high. We will honestly advise you if replacing it with a new Inverter AC is a better financial decision." },
+            { q: "What if the same problem happens again?", a: "If the exact same issue reoccurs within our warranty period, we will send a technician to fix it again completely free of charge." },
+            { q: "Are your Split AC technicians verified?", a: "Yes, every technician undergoes strict background verification and rigorous technical training before they are allowed to enter a customer's home." },
+            { q: "How do I book a repair right now?", a: "Click the WhatsApp button on our website for an instant chat, or call us directly at +91 81159 53195. We will dispatch a technician to your address immediately." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>

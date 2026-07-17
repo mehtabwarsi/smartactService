@@ -45,11 +45,6 @@ export default function Page() {
         "areaServed": [
           "Nalasopara East", "Nalasopara West", "Achole", "Tulinj", "Moregaon", "Oswal Nagari", "Central Park", "Alkapuri", "Fun Fiesta", "Yashwant Gaurav", "Nilemore"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "854"
-        }
       },
       {
         "@type": "Service",
@@ -103,7 +98,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Best AC Repair in Nalasopara: Your Trusted Cooling Experts</h2>
         <p className="text-lg leading-relaxed mb-6">
           Living in <strong>Nalasopara</strong> means dealing with intense summer heat and high humidity levels. When your air conditioner breaks down, it’s not just an inconvenience—it’s a disruption to your daily life and comfort. At <strong>Smart AC Service</strong>, we provide the most reliable, fast, and affordable <strong>AC repair in Nalasopara</strong>. Whether you reside in <strong>Nalasopara East</strong> or <strong>Nalasopara West</strong>, our certified AC technicians are just a call away, ready to restore your cooling instantly.
@@ -113,7 +108,7 @@ export default function Page() {
         <p className="mb-4">
           Finding a professional AC technician in Nalasopara can be challenging. Many local mechanics lack the proper training to handle modern inverter ACs or use substandard spare parts. Here is why thousands of customers trust us over competitors like Urban Company, Sulekha, or Justdial:
         </p>
-        
+
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-blue-50">
@@ -159,7 +154,7 @@ export default function Page() {
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Comprehensive AC Services We Offer</h3>
-        
+
         <h4 className="text-xl font-medium text-gray-800 mt-6 mb-2">Split AC Repair Nalasopara</h4>
         <p className="mb-4">Split air conditioners are the most common cooling units in modern homes. We fix all split AC problems including indoor unit water leakage, strange rattling noises, blower motor issues, and PCB failures. Our experts carry advanced diagnostic tools to pinpoint the exact issue quickly.</p>
 
@@ -240,26 +235,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs)</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "How fast can you send an AC technician in Nalasopara?", a: "We usually dispatch a technician within 30-45 minutes of booking for areas like Nalasopara East, West, Achole, and Tulinj."},
-            {q: "Is there a visiting charge if I don't proceed with the repair?", a: "We charge a nominal inspection fee of ₹299 to diagnose the exact issue. If you proceed with the repair, this fee is completely waived off."},
-            {q: "Do you provide a warranty on AC repair?", a: "Yes, we provide a 30-day service warranty on all our repair work and up to 1-year warranty on genuine spare parts like compressors and PCBs."},
-            {q: "Which refrigerant gas do you use?", a: "We only use original, factory-grade refrigerants like R32, R410A, and R22 based on your AC manufacturer's specifications."},
-            {q: "Can you fix my AC water leakage problem immediately?", a: "Yes, AC water leakage is one of the most common issues we solve daily. It usually requires clearing the blocked drain pipe or deep cleaning the evaporator coil."},
-            {q: "Do you repair both Split and Window ACs?", a: "Absolutely. Our experts are well-trained to handle split ACs, window ACs, and even commercial cassette AC units."},
-            {q: "My AC is running but not cooling. What is the issue?", a: "This could be due to dirty filters, a tripped compressor, a faulty capacitor, or a gas leak. Our technician will pinpoint the exact cause."},
-            {q: "What is Foam Jet Cleaning?", a: "It's an advanced cleaning method where we use a pressure washer and specialized foam chemicals to deep clean the indoor unit, removing hidden mold, dust, and bacteria."},
-            {q: "Do you offer AC uninstallation and shifting services?", a: "Yes, if you are shifting homes within Nalasopara or to nearby areas like Vasai or Virar, we safely uninstall, transport, and reinstall your AC without gas loss."},
-            {q: "Is it safe to get my AC serviced by local mechanics?", a: "Local mechanics often lack training for modern inverter ACs and might use duplicate parts which can permanently damage your AC. Always choose certified professionals."},
-            {q: "How often should I service my AC in Nalasopara?", a: "Given the dust and coastal humidity, we highly recommend getting your AC serviced at least twice a year (before summer and post-monsoon) for optimal performance."},
-            {q: "Do you handle Inverter AC PCB repair?", a: "Yes, PCB repair is complex and expensive to replace. Our electronic experts can often repair the existing PCB at a fraction of the cost of a new one."},
-            {q: "Why is ice forming on my AC copper pipes?", a: "Ice formation is a classic sign of low refrigerant gas due to a leak, or severely restricted airflow caused by a choked cooling coil. Turn off the AC immediately and call us."},
-            {q: "What brands do you service?", a: "We service all major brands including Daikin, LG, Samsung, Voltas, Blue Star, Panasonic, Hitachi, Lloyd, O General, and Carrier."},
-            {q: "Are there any hidden charges in your pricing?", a: "No. Our pricing is 100% transparent. We provide an exact quotation after the initial inspection before starting any repair work."},
-            {q: "Do you provide AC AMC (Annual Maintenance Contracts)?", a: "Yes, our AMC packages cover routine services and priority breakdown support, offering complete peace of mind throughout the year."},
-            {q: "What payment methods do you accept?", a: "We accept Cash, UPI (Google Pay, PhonePe, Paytm), and IMPS bank transfers after the service is successfully completed."},
-            {q: "Can a dirty AC cause high electricity bills?", a: "Yes. When filters and coils are choked with dust, the compressor runs longer and harder to cool the room, drastically increasing power consumption."},
-            {q: "My AC makes a loud rattling noise. Is it dangerous?", a: "A rattling noise could indicate a loose blower fan, a failing motor bearing, or a damaged compressor mount. It should be inspected immediately to prevent further damage."},
-            {q: "How can I book an AC service appointment?", a: "You can book easily by calling us directly at +91 81159 53195 or by sending a message on WhatsApp. We provide instant confirmations."}
+            { q: "How fast can you send an AC technician in Nalasopara?", a: "We usually dispatch a technician within 30-45 minutes of booking for areas like Nalasopara East, West, Achole, and Tulinj." },
+            { q: "Is there a visiting charge if I don't proceed with the repair?", a: "We charge a nominal inspection fee of ₹299 to diagnose the exact issue. If you proceed with the repair, this fee is completely waived off." },
+            { q: "Do you provide a warranty on AC repair?", a: "Yes, we provide a 30-day service warranty on all our repair work and up to 1-year warranty on genuine spare parts like compressors and PCBs." },
+            { q: "Which refrigerant gas do you use?", a: "We only use original, factory-grade refrigerants like R32, R410A, and R22 based on your AC manufacturer's specifications." },
+            { q: "Can you fix my AC water leakage problem immediately?", a: "Yes, AC water leakage is one of the most common issues we solve daily. It usually requires clearing the blocked drain pipe or deep cleaning the evaporator coil." },
+            { q: "Do you repair both Split and Window ACs?", a: "Absolutely. Our experts are well-trained to handle split ACs, window ACs, and even commercial cassette AC units." },
+            { q: "My AC is running but not cooling. What is the issue?", a: "This could be due to dirty filters, a tripped compressor, a faulty capacitor, or a gas leak. Our technician will pinpoint the exact cause." },
+            { q: "What is Foam Jet Cleaning?", a: "It's an advanced cleaning method where we use a pressure washer and specialized foam chemicals to deep clean the indoor unit, removing hidden mold, dust, and bacteria." },
+            { q: "Do you offer AC uninstallation and shifting services?", a: "Yes, if you are shifting homes within Nalasopara or to nearby areas like Vasai or Virar, we safely uninstall, transport, and reinstall your AC without gas loss." },
+            { q: "Is it safe to get my AC serviced by local mechanics?", a: "Local mechanics often lack training for modern inverter ACs and might use duplicate parts which can permanently damage your AC. Always choose certified professionals." },
+            { q: "How often should I service my AC in Nalasopara?", a: "Given the dust and coastal humidity, we highly recommend getting your AC serviced at least twice a year (before summer and post-monsoon) for optimal performance." },
+            { q: "Do you handle Inverter AC PCB repair?", a: "Yes, PCB repair is complex and expensive to replace. Our electronic experts can often repair the existing PCB at a fraction of the cost of a new one." },
+            { q: "Why is ice forming on my AC copper pipes?", a: "Ice formation is a classic sign of low refrigerant gas due to a leak, or severely restricted airflow caused by a choked cooling coil. Turn off the AC immediately and call us." },
+            { q: "What brands do you service?", a: "We service all major brands including Daikin, LG, Samsung, Voltas, Blue Star, Panasonic, Hitachi, Lloyd, O General, and Carrier." },
+            { q: "Are there any hidden charges in your pricing?", a: "No. Our pricing is 100% transparent. We provide an exact quotation after the initial inspection before starting any repair work." },
+            { q: "Do you provide AC AMC (Annual Maintenance Contracts)?", a: "Yes, our AMC packages cover routine services and priority breakdown support, offering complete peace of mind throughout the year." },
+            { q: "What payment methods do you accept?", a: "We accept Cash, UPI (Google Pay, PhonePe, Paytm), and IMPS bank transfers after the service is successfully completed." },
+            { q: "Can a dirty AC cause high electricity bills?", a: "Yes. When filters and coils are choked with dust, the compressor runs longer and harder to cool the room, drastically increasing power consumption." },
+            { q: "My AC makes a loud rattling noise. Is it dangerous?", a: "A rattling noise could indicate a loose blower fan, a failing motor bearing, or a damaged compressor mount. It should be inspected immediately to prevent further damage." },
+            { q: "How can I book an AC service appointment?", a: "You can book easily by calling us directly at +91 81159 53195 or by sending a message on WhatsApp. We provide instant confirmations." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>

@@ -45,11 +45,6 @@ export default function Page() {
         "areaServed": [
           "Naigaon East", "Naigaon West", "Juchandra", "Bapane", "Uttan Road", "Naigaon Railway Station", "Sasunavghar", "Kaman", "Diva", "Chandansar"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "624"
-        }
       },
       {
         "@type": "Service",
@@ -111,7 +106,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Premium AC Service in Naigaon: Your Comfort is Our Priority</h2>
         <p className="text-lg leading-relaxed mb-6">
           Living near the coastal areas of <strong>Naigaon</strong> means dealing with high humidity and intense summers that take a toll on your air conditioner. If your AC is failing to cool, leaking water, or making strange noises, you need a highly responsive expert. <strong>Smart AC Service</strong> is the most trusted <strong>AC service provider in Naigaon</strong>. From routine maintenance in <strong>Naigaon West</strong> to emergency cooling repairs in <strong>Naigaon East</strong>, our certified <strong>AC technicians in Naigaon</strong> deliver rapid, guaranteed solutions straight to your home or office.
@@ -121,7 +116,7 @@ export default function Page() {
         <p className="mb-4">
           Many people in Naigaon rely on aggregators like Justdial or Urban Company, only to face delayed service, unverified mechanics, or inflated bills with hidden costs. We operate differently. As a dedicated local specialist, we prioritize absolute transparency and technical excellence. Here is why we are the top choice for AC repair over local competitors:
         </p>
-        
+
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-blue-50">
@@ -167,7 +162,7 @@ export default function Page() {
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Complete AC Services Offered in Naigaon</h3>
-        
+
         <h4 className="text-xl font-medium text-gray-800 mt-6 mb-2">Split AC Repair Naigaon</h4>
         <p className="mb-4">Split air conditioners are fantastic, but they suffer from drainage blockages and sensor issues over time. Our <strong>split AC repair</strong> service covers everything from deep cleaning choked cooling coils to resolving complex blower motor vibrations, ensuring whisper-quiet operation.</p>
 
@@ -257,26 +252,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs) - AC Service Naigaon</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "How fast can you repair my AC in Naigaon West?", a: "For Naigaon West, including areas near the station and coastal side, we typically dispatch our technicians within 30 to 45 minutes."},
-            {q: "Is there a visiting charge if I don't get the AC repaired?", a: "We charge a nominal diagnostic fee of ₹299 to uncover the exact issue. If you proceed with our repair, this fee is fully waived off."},
-            {q: "How do you fix AC water leakage indoors?", a: "Water leakage is extremely common. It is usually caused by a blocked drain pipe or heavy dirt buildup on the cooling coil. We fix this by unblocking the drain and performing a deep foam wash."},
-            {q: "Do you repair the PCB of Inverter ACs?", a: "Yes! Inverter AC PCBs are highly complex. We have electronic specialists who repair the existing boards at a fraction of the cost of replacing them entirely."},
-            {q: "Is it safe to refill AC gas without fixing the leak?", a: "No, it is a waste of money. AC gas doesn't just evaporate. We always perform a nitrogen pressure test to find the leak, braze it, and then refill the gas."},
-            {q: "What is the difference between normal service and Foam Jet Cleaning?", a: "Normal service involves basic filter washing. Foam Jet Cleaning uses specialized chemicals and a high-pressure jet pump to remove deep-seated mold and dirt from the cooling coils."},
-            {q: "Do you offer any warranty on AC repairs in Naigaon?", a: "Absolutely. We stand by our work. We provide a 30 to 90-day service warranty on our repairs and a manufacturer's warranty on genuine spare parts."},
-            {q: "My AC trips the main power (MCB) instantly. Why?", a: "This indicates a severe electrical short circuit, usually a grounded compressor, burnt wiring, or a failed capacitor. Please keep the AC off and call our emergency team."},
-            {q: "Which refrigerant gases do you use?", a: "We exclusively use pure, factory-grade refrigerants specified by the brand, including R32, R410A, and R22. We never use cheap, mixed gases."},
-            {q: "Do you install ACs bought online?", a: "Yes, we provide expert AC installation for units purchased online. We ensure correct flaring and secure mounting to prevent any future gas leaks."},
-            {q: "Can you shift my AC from Naigaon East to Vasai?", a: "Yes, we handle complete AC shifting. We will safely uninstall the AC, pump down the gas, transport it, and reinstall it perfectly in Vasai."},
-            {q: "Why is ice forming on my AC's indoor copper pipes?", a: "Ice forms when there is a severe airflow restriction (due to choked filters/coils) or when the refrigerant gas is critically low. It needs immediate servicing."},
-            {q: "Do you service commercial AC units in Naigaon?", a: "Yes, we service cassette ACs, tower units, and ductable systems for restaurants, clinics, and offices across Naigaon."},
-            {q: "How often should I service my AC in a coastal area like Naigaon?", a: "Because of high humidity and coastal salt in the air (which causes faster corrosion and mold), we recommend servicing your AC at least twice a year."},
-            {q: "Can a dirty AC increase my electricity bill?", a: "Yes! A choked AC forces the compressor to work much harder to achieve the desired temperature, which can increase your power bill by up to 30%."},
-            {q: "Are your technicians experienced and verified?", a: "Yes, every single technician is thoroughly background-checked, certified, and trained on the latest Inverter AC technologies."},
-            {q: "Do you use original spare parts?", a: "We only use 100% genuine OEM (Original Equipment Manufacturer) spare parts. Duplicate parts can permanently damage your compressor."},
-            {q: "Do you offer Annual Maintenance Contracts (AMC)?", a: "Yes, we offer affordable AMC plans that include routine deep cleaning, priority support, and heavy discounts on repairs throughout the year."},
-            {q: "What if the same problem happens again after repair?", a: "If the exact same issue occurs within the warranty period, we will revisit and fix the problem completely free of charge."},
-            {q: "How do I book a technician right now?", a: "It's simple! Click the WhatsApp button on our website or call us directly at +91 81159 53195 for an instant booking."}
+            { q: "How fast can you repair my AC in Naigaon West?", a: "For Naigaon West, including areas near the station and coastal side, we typically dispatch our technicians within 30 to 45 minutes." },
+            { q: "Is there a visiting charge if I don't get the AC repaired?", a: "We charge a nominal diagnostic fee of ₹299 to uncover the exact issue. If you proceed with our repair, this fee is fully waived off." },
+            { q: "How do you fix AC water leakage indoors?", a: "Water leakage is extremely common. It is usually caused by a blocked drain pipe or heavy dirt buildup on the cooling coil. We fix this by unblocking the drain and performing a deep foam wash." },
+            { q: "Do you repair the PCB of Inverter ACs?", a: "Yes! Inverter AC PCBs are highly complex. We have electronic specialists who repair the existing boards at a fraction of the cost of replacing them entirely." },
+            { q: "Is it safe to refill AC gas without fixing the leak?", a: "No, it is a waste of money. AC gas doesn't just evaporate. We always perform a nitrogen pressure test to find the leak, braze it, and then refill the gas." },
+            { q: "What is the difference between normal service and Foam Jet Cleaning?", a: "Normal service involves basic filter washing. Foam Jet Cleaning uses specialized chemicals and a high-pressure jet pump to remove deep-seated mold and dirt from the cooling coils." },
+            { q: "Do you offer any warranty on AC repairs in Naigaon?", a: "Absolutely. We stand by our work. We provide a 30 to 90-day service warranty on our repairs and a manufacturer's warranty on genuine spare parts." },
+            { q: "My AC trips the main power (MCB) instantly. Why?", a: "This indicates a severe electrical short circuit, usually a grounded compressor, burnt wiring, or a failed capacitor. Please keep the AC off and call our emergency team." },
+            { q: "Which refrigerant gases do you use?", a: "We exclusively use pure, factory-grade refrigerants specified by the brand, including R32, R410A, and R22. We never use cheap, mixed gases." },
+            { q: "Do you install ACs bought online?", a: "Yes, we provide expert AC installation for units purchased online. We ensure correct flaring and secure mounting to prevent any future gas leaks." },
+            { q: "Can you shift my AC from Naigaon East to Vasai?", a: "Yes, we handle complete AC shifting. We will safely uninstall the AC, pump down the gas, transport it, and reinstall it perfectly in Vasai." },
+            { q: "Why is ice forming on my AC's indoor copper pipes?", a: "Ice forms when there is a severe airflow restriction (due to choked filters/coils) or when the refrigerant gas is critically low. It needs immediate servicing." },
+            { q: "Do you service commercial AC units in Naigaon?", a: "Yes, we service cassette ACs, tower units, and ductable systems for restaurants, clinics, and offices across Naigaon." },
+            { q: "How often should I service my AC in a coastal area like Naigaon?", a: "Because of high humidity and coastal salt in the air (which causes faster corrosion and mold), we recommend servicing your AC at least twice a year." },
+            { q: "Can a dirty AC increase my electricity bill?", a: "Yes! A choked AC forces the compressor to work much harder to achieve the desired temperature, which can increase your power bill by up to 30%." },
+            { q: "Are your technicians experienced and verified?", a: "Yes, every single technician is thoroughly background-checked, certified, and trained on the latest Inverter AC technologies." },
+            { q: "Do you use original spare parts?", a: "We only use 100% genuine OEM (Original Equipment Manufacturer) spare parts. Duplicate parts can permanently damage your compressor." },
+            { q: "Do you offer Annual Maintenance Contracts (AMC)?", a: "Yes, we offer affordable AMC plans that include routine deep cleaning, priority support, and heavy discounts on repairs throughout the year." },
+            { q: "What if the same problem happens again after repair?", a: "If the exact same issue occurs within the warranty period, we will revisit and fix the problem completely free of charge." },
+            { q: "How do I book a technician right now?", a: "It's simple! Click the WhatsApp button on our website or call us directly at +91 81159 53195 for an instant booking." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>

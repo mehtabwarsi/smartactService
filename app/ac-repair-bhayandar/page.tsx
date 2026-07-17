@@ -45,11 +45,6 @@ export default function Page() {
         "areaServed": [
           "Bhayandar East", "Bhayandar West", "Jesal Park", "Navghar", "Indralok", "Golden Nest", "Mira Bhayandar Road", "Maxus Mall Area", "RNP Park", "Goddev", "Shiv Sena Galli"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1128"
-        }
       },
       {
         "@type": "Service",
@@ -111,7 +106,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Elite AC Repair in Bhayandar: Pure Comfort, Guaranteed</h2>
         <p className="text-lg leading-relaxed mb-6">
           Battling the intense urban heat of <strong>Bhayandar</strong> is impossible without a flawlessly working air conditioner. A sudden AC breakdown is more than a nuisance; it disrupts your entire day. If you are searching for the most dependable <strong>AC repair in Bhayandar</strong>, your search ends with <strong>Smart AC Service</strong>. From residential cooling setups in <strong>Indralok</strong> and <strong>Jesal Park</strong> to commercial heavy-duty units along <strong>Mira Bhayandar Road</strong>, our highly certified <strong>AC technicians in Bhayandar</strong> are standing by to deliver swift, long-lasting cooling solutions.
@@ -121,7 +116,7 @@ export default function Page() {
         <p className="mb-4">
           Residents of Bhayandar often struggle with unreliable local mechanics or large aggregator platforms like Urban Company and Sulekha. These platforms frequently suffer from long wait times, surging prices, and unverified, poorly-trained contractors. We offer a radically different experience focused on trust and hyper-local efficiency. Here is why we dominate the local AC service market:
         </p>
-        
+
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-blue-50">
@@ -167,7 +162,7 @@ export default function Page() {
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Our End-to-End Cooling Services</h3>
-        
+
         <h4 className="text-xl font-medium text-gray-800 mt-6 mb-2">Split AC Repair Bhayandar</h4>
         <p className="mb-4">Split units are the gold standard for modern homes but require delicate handling. We offer meticulous <strong>split AC repair</strong>. Whether it is a faulty run capacitor, a damaged blower motor causing violent rattling, or a completely clogged drainage tray, we fix it with surgical precision.</p>
 
@@ -257,26 +252,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs) - AC Repair Bhayandar</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "How fast can an AC technician reach me in Bhayandar West?", a: "For areas like Bhayandar West, Jesal Park, and Maxus Mall, our local technicians are dispatched immediately and usually arrive within 30 to 45 minutes."},
-            {q: "Do you charge a visiting fee if I don't proceed with the repair?", a: "We charge a highly affordable diagnostic fee of ₹299 to pinpoint the exact issue. If you authorize us to proceed with the repair, this ₹299 is completely waived off."},
-            {q: "Can you stop water dripping from my indoor AC unit?", a: "Yes, AC water leakage is incredibly common. It is primarily caused by a blocked drainage line or extreme dust buildup on the coils. We clear the blockage and pressure-clean the unit to stop the leak permanently."},
-            {q: "Do you repair the PCB of Inverter ACs?", a: "Absolutely. Inverter AC PCBs are highly sophisticated. Instead of forcing you to buy a new, expensive board, our electronic specialists can often repair your existing PCB at the component level."},
-            {q: "Why shouldn't I just 'top up' my AC gas?", a: "Because AC gas does not naturally evaporate or get consumed. If your gas is low, there is a physical leak in the copper piping. We strictly perform a nitrogen pressure test to find and braze the leak before refilling the gas."},
-            {q: "What makes Foam Jet Cleaning better than normal washing?", a: "Normal washing only cleans the superficial filters. Foam Jet Cleaning injects specialized, anti-bacterial foam deep into the evaporator fins to loosen deeply embedded mold, dust, and grime, which is then blasted away with high-pressure water."},
-            {q: "Do you offer any warranty on your AC repairs in Bhayandar?", a: "Yes! We stand firmly behind our workmanship. We provide a 30 to 90-day service warranty on our repairs and honor the manufacturer's warranty on all genuine spare parts we install."},
-            {q: "My AC trips the main switch (MCB) as soon as I turn it on. What is wrong?", a: "This is a serious electrical hazard indicating a short circuit. It is usually caused by a grounded compressor, melted internal wiring, or a burnt capacitor. Do not turn the AC on again; call our emergency team immediately."},
-            {q: "Which refrigerant gases do you stock?", a: "We stock only premium, factory-grade refrigerants—R32, R410A, and R22. We never use cheap, adulterated, or mixed gases, as they destroy compressor efficiency."},
-            {q: "Do you repair heavy-duty commercial Cassette ACs?", a: "Yes, we handle all commercial cooling needs across Bhayandar, including the repair, gas filling, and deep maintenance of Cassette ACs, ductable systems, and tower ACs."},
-            {q: "Can you help shift my AC from Indralok to Navghar?", a: "Yes, we offer comprehensive AC shifting services. We will safely uninstall the AC (pumping down the refrigerant to avoid any gas loss), securely transport it, and reinstall it perfectly in your new home."},
-            {q: "Why is thick ice forming on my AC's copper pipes?", a: "Ice formation is a critical warning sign. It means either the refrigerant gas level is severely low due to a leak, or the indoor cooling coil is completely choked with dirt, suffocating airflow. Turn off the AC and call us immediately."},
-            {q: "Do you use duplicate or local spare parts to lower costs?", a: "Never. Using substandard spare parts is a false economy that will permanently damage your AC. We strictly use 100% genuine OEM (Original Equipment Manufacturer) spare parts."},
-            {q: "How often should I service my AC in Bhayandar?", a: "Bhayandar experiences high levels of dust and coastal humidity, which accelerates corrosion and mold growth. We strongly advise servicing your AC at least twice a year—before the peak summer and right after the monsoon season."},
-            {q: "Can a dirty AC really increase my electricity bill?", a: "Yes, drastically. When an AC is choked with dust, the compressor must run continuously and work much harder to cool the room. This can spike your power consumption by up to 30%."},
-            {q: "What exact areas in Bhayandar do you cover?", a: "We provide comprehensive coverage across Bhayandar East, Bhayandar West, Jesal Park, Navghar, Indralok, Golden Nest, Mira Bhayandar Road, Maxus Mall Area, RNP Park, Goddev, and Shiv Sena Galli."},
-            {q: "Are your AC technicians background-checked?", a: "Yes, your safety and security are paramount. Every single technician at Smart AC Service undergoes rigorous background verification and continuous technical training."},
-            {q: "Do you provide Annual Maintenance Contracts (AMC)?", a: "Yes, our AMC plans are the best way to protect your AC. They include scheduled deep cleanings, VIP priority attendance during breakdowns, and heavy discounts on any required spare parts."},
-            {q: "What happens if the exact same problem reoccurs after you fix it?", a: "If the specific issue we repaired reoccurs within our warranty period, we will dispatch a technician to fix it again completely free of charge."},
-            {q: "How can I instantly book an AC technician?", a: "Booking is incredibly simple. You can click the WhatsApp button on our website for an instant chat, or call us directly at +91 81159 53195 for immediate assistance."}
+            { q: "How fast can an AC technician reach me in Bhayandar West?", a: "For areas like Bhayandar West, Jesal Park, and Maxus Mall, our local technicians are dispatched immediately and usually arrive within 30 to 45 minutes." },
+            { q: "Do you charge a visiting fee if I don't proceed with the repair?", a: "We charge a highly affordable diagnostic fee of ₹299 to pinpoint the exact issue. If you authorize us to proceed with the repair, this ₹299 is completely waived off." },
+            { q: "Can you stop water dripping from my indoor AC unit?", a: "Yes, AC water leakage is incredibly common. It is primarily caused by a blocked drainage line or extreme dust buildup on the coils. We clear the blockage and pressure-clean the unit to stop the leak permanently." },
+            { q: "Do you repair the PCB of Inverter ACs?", a: "Absolutely. Inverter AC PCBs are highly sophisticated. Instead of forcing you to buy a new, expensive board, our electronic specialists can often repair your existing PCB at the component level." },
+            { q: "Why shouldn't I just 'top up' my AC gas?", a: "Because AC gas does not naturally evaporate or get consumed. If your gas is low, there is a physical leak in the copper piping. We strictly perform a nitrogen pressure test to find and braze the leak before refilling the gas." },
+            { q: "What makes Foam Jet Cleaning better than normal washing?", a: "Normal washing only cleans the superficial filters. Foam Jet Cleaning injects specialized, anti-bacterial foam deep into the evaporator fins to loosen deeply embedded mold, dust, and grime, which is then blasted away with high-pressure water." },
+            { q: "Do you offer any warranty on your AC repairs in Bhayandar?", a: "Yes! We stand firmly behind our workmanship. We provide a 30 to 90-day service warranty on our repairs and honor the manufacturer's warranty on all genuine spare parts we install." },
+            { q: "My AC trips the main switch (MCB) as soon as I turn it on. What is wrong?", a: "This is a serious electrical hazard indicating a short circuit. It is usually caused by a grounded compressor, melted internal wiring, or a burnt capacitor. Do not turn the AC on again; call our emergency team immediately." },
+            { q: "Which refrigerant gases do you stock?", a: "We stock only premium, factory-grade refrigerants—R32, R410A, and R22. We never use cheap, adulterated, or mixed gases, as they destroy compressor efficiency." },
+            { q: "Do you repair heavy-duty commercial Cassette ACs?", a: "Yes, we handle all commercial cooling needs across Bhayandar, including the repair, gas filling, and deep maintenance of Cassette ACs, ductable systems, and tower ACs." },
+            { q: "Can you help shift my AC from Indralok to Navghar?", a: "Yes, we offer comprehensive AC shifting services. We will safely uninstall the AC (pumping down the refrigerant to avoid any gas loss), securely transport it, and reinstall it perfectly in your new home." },
+            { q: "Why is thick ice forming on my AC's copper pipes?", a: "Ice formation is a critical warning sign. It means either the refrigerant gas level is severely low due to a leak, or the indoor cooling coil is completely choked with dirt, suffocating airflow. Turn off the AC and call us immediately." },
+            { q: "Do you use duplicate or local spare parts to lower costs?", a: "Never. Using substandard spare parts is a false economy that will permanently damage your AC. We strictly use 100% genuine OEM (Original Equipment Manufacturer) spare parts." },
+            { q: "How often should I service my AC in Bhayandar?", a: "Bhayandar experiences high levels of dust and coastal humidity, which accelerates corrosion and mold growth. We strongly advise servicing your AC at least twice a year—before the peak summer and right after the monsoon season." },
+            { q: "Can a dirty AC really increase my electricity bill?", a: "Yes, drastically. When an AC is choked with dust, the compressor must run continuously and work much harder to cool the room. This can spike your power consumption by up to 30%." },
+            { q: "What exact areas in Bhayandar do you cover?", a: "We provide comprehensive coverage across Bhayandar East, Bhayandar West, Jesal Park, Navghar, Indralok, Golden Nest, Mira Bhayandar Road, Maxus Mall Area, RNP Park, Goddev, and Shiv Sena Galli." },
+            { q: "Are your AC technicians background-checked?", a: "Yes, your safety and security are paramount. Every single technician at Smart AC Service undergoes rigorous background verification and continuous technical training." },
+            { q: "Do you provide Annual Maintenance Contracts (AMC)?", a: "Yes, our AMC plans are the best way to protect your AC. They include scheduled deep cleanings, VIP priority attendance during breakdowns, and heavy discounts on any required spare parts." },
+            { q: "What happens if the exact same problem reoccurs after you fix it?", a: "If the specific issue we repaired reoccurs within our warranty period, we will dispatch a technician to fix it again completely free of charge." },
+            { q: "How can I instantly book an AC technician?", a: "Booking is incredibly simple. You can click the WhatsApp button on our website for an instant chat, or call us directly at +91 81159 53195 for immediate assistance." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>

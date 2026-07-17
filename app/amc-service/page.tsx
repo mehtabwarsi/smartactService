@@ -40,11 +40,6 @@ export default function Page() {
         "areaServed": [
           "Nalasopara", "Vasai", "Virar", "Naigaon", "Bhayandar"
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "1620"
-        }
       },
       {
         "@type": "Service",
@@ -108,7 +103,7 @@ export default function Page() {
   const seoContent = (
     <div className="text-gray-700 space-y-10">
       <div className="seo-article">
-        
+
         <h2 className="text-3xl font-bold text-gray-900 mb-4">AC AMC Service: Total Protection for Your Air Conditioner</h2>
         <p className="text-lg leading-relaxed mb-6">
           Air conditioners are complex, expensive machines that operate under immense pressure, especially during the sweltering Indian summers. Waiting for your AC to break down before calling a mechanic is a costly mistake. <strong>Smart AC Service</strong> offers premium <strong>AC Annual Maintenance Contracts (AMC)</strong> designed to keep your units running flawlessly year-round. From <strong>residential AMC</strong> plans in <a href="/ac-repair-nalasopara" className="text-blue-600 underline hover:text-blue-800">Nalasopara</a> and <a href="/ac-service-vasai" className="text-blue-600 underline hover:text-blue-800">Vasai</a> to heavy-duty <strong>commercial AC AMC</strong> for offices in <a href="/ac-repair-virar" className="text-blue-600 underline hover:text-blue-800">Virar</a>, <a href="/ac-service-naigaon" className="text-blue-600 underline hover:text-blue-800">Naigaon</a>, and <a href="/ac-repair-bhayandar" className="text-blue-600 underline hover:text-blue-800">Bhayandar</a>, we ensure your comfort is never interrupted.
@@ -123,7 +118,7 @@ export default function Page() {
         <p className="mb-4">
           When you buy an AMC from giant aggregators like Urban Company, you get a different, random technician every time they visit. They do not know the history of your machine. With Smart AC Service, you get a dedicated local team that treats your AC like their own.
         </p>
-        
+
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-blue-50">
@@ -178,7 +173,7 @@ export default function Page() {
         </ul>
 
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-4">The Financial Reality: Why Regular Maintenance Saves You Money</h3>
-        
+
         <h4 className="text-xl font-medium text-gray-800 mt-6 mb-2">1. Slashing Electricity Bills</h4>
         <p className="mb-4">A dirty AC forces the compressor to work 30% harder to push air through clogged filters and mud-caked coils. A clean AC reaches the desired temperature faster and turns the compressor off sooner. Over a year, the electricity savings alone completely pay for the cost of the AMC.</p>
 
@@ -225,26 +220,26 @@ export default function Page() {
         <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-6">Frequently Asked Questions (FAQs) - AC AMC Service</h3>
         <div className="space-y-4 mb-10">
           {[
-            {q: "What is the difference between Non-Comprehensive and Comprehensive AMC?", a: "Non-Comprehensive AMC covers all routine service visits and diagnostic labor, but you pay for any spare parts or gas if required. A Comprehensive AMC covers routine services PLUS the cost of all spare parts (like compressors, PCBs, gas) during the contract year."},
-            {q: "How many services do I actually need in a year?", a: "For normal residential use in Mumbai's dusty/coastal environment, 2 to 3 services a year are ideal. For commercial spaces or homes that run the AC 24/7, a quarterly plan (4 services) is highly recommended."},
-            {q: "If my AC breaks down between scheduled AMC visits, do I have to pay a visiting charge?", a: "No! As an AMC contract holder, all breakdown diagnostic visits are completely free. You only pay for spare parts if your contract is non-comprehensive."},
-            {q: "Does the AMC include Foam Jet Deep Cleaning?", a: "Yes. Our standard AMC plans include thorough wet services using high-pressure jet pumps to ensure the cooling coils are completely free of mold and mud."},
-            {q: "Is gas filling included in the standard AMC?", a: "Gas filling is not included in the standard (Non-Comprehensive) AMC. However, we check the gas pressure during every visit, and if a refill is needed, AMC members get a heavy discount on the gas charging cost."},
-            {q: "Do I have to remember to call you for my scheduled service?", a: "Not at all. We maintain a digital CRM system. Our support team will call you a week before your service is due to schedule a convenient time for the technician's visit."},
-            {q: "Can I buy an AMC for a very old Window AC?", a: "Yes, we offer AMC plans for Window ACs. However, for extremely old units (10+ years), we will conduct a preliminary health check before approving a Comprehensive contract."},
-            {q: "What happens if I move to a new house within your service area?", a: "Your AMC contract is fully transferable. If you move from Vasai to Virar, for example, your contract moves with you. (Uninstallation/Installation charges apply for the shifting process)."},
-            {q: "Do you provide AMC for offices with multiple Cassette ACs?", a: "Yes, we specialize in Commercial AC AMC. We offer customized, discounted contracts for businesses with multiple Split, Window, or Cassette units."},
-            {q: "Why should I buy an AMC instead of just calling a mechanic when it breaks?", a: "Because running an unmaintained AC increases your electricity bill by 30% and drastically shortens the life of the compressor. An AMC prevents breakdowns, saves electricity, and guarantees you priority service when you need it most."},
-            {q: "Will an AMC fix the 'dirty socks' smell from my AC?", a: "Yes. That smell is black mold. The routine deep cleaning included in your AMC eradicates this mold, ensuring your family breathes healthy, odorless air."},
-            {q: "How soon do you respond to emergency breakdowns for AMC customers?", a: "AMC customers get VIP Priority routing. During peak summer, while regular customers might wait 24-48 hours, AMC members are attended to within hours."},
-            {q: "Are the spare parts used during AMC repairs genuine?", a: "100% Yes. We only use OEM (Original Equipment Manufacturer) spare parts. We never compromise the integrity of your machine with cheap duplicate parts."},
-            {q: "Can I upgrade my Non-Comprehensive plan to a Comprehensive one later?", a: "Yes, you can upgrade after our technician inspects the current health of your air conditioner and verifies it is in good working order."},
-            {q: "Do you service Inverter ACs under the AMC plan?", a: "Absolutely. Our technicians are highly trained in the electronics and specialized refrigerants (like R32) used in modern Inverter ACs."},
-            {q: "Is the AMC fee refundable if I sell my AC?", a: "While the fee is non-refundable, the AMC is transferable to the new owner of the AC, which actually increases the resale value of your machine."},
-            {q: "What is an 'Electrical Safety Check'?", a: "During every visit, we check the amp-draw of the compressor, inspect the run/start capacitors for bulging, and tighten all terminal wires. This prevents dangerous short circuits and fires."},
-            {q: "Does the AMC cover remote control repairs?", a: "No, plastic body parts, remote controls, and air filters (if torn) are considered consumable/physical damage items and are not covered under free replacement."},
-            {q: "Are your technicians background verified?", a: "Yes, since our technicians will be visiting your home multiple times a year, every team member undergoes strict background checks and continuous training."},
-            {q: "How do I sign up for an AC AMC today?", a: "It’s very easy. Click the WhatsApp button or call us at +91 81159 53195. We will schedule a first visit to inspect and service your AC, and you can sign the contract on the spot."}
+            { q: "What is the difference between Non-Comprehensive and Comprehensive AMC?", a: "Non-Comprehensive AMC covers all routine service visits and diagnostic labor, but you pay for any spare parts or gas if required. A Comprehensive AMC covers routine services PLUS the cost of all spare parts (like compressors, PCBs, gas) during the contract year." },
+            { q: "How many services do I actually need in a year?", a: "For normal residential use in Mumbai's dusty/coastal environment, 2 to 3 services a year are ideal. For commercial spaces or homes that run the AC 24/7, a quarterly plan (4 services) is highly recommended." },
+            { q: "If my AC breaks down between scheduled AMC visits, do I have to pay a visiting charge?", a: "No! As an AMC contract holder, all breakdown diagnostic visits are completely free. You only pay for spare parts if your contract is non-comprehensive." },
+            { q: "Does the AMC include Foam Jet Deep Cleaning?", a: "Yes. Our standard AMC plans include thorough wet services using high-pressure jet pumps to ensure the cooling coils are completely free of mold and mud." },
+            { q: "Is gas filling included in the standard AMC?", a: "Gas filling is not included in the standard (Non-Comprehensive) AMC. However, we check the gas pressure during every visit, and if a refill is needed, AMC members get a heavy discount on the gas charging cost." },
+            { q: "Do I have to remember to call you for my scheduled service?", a: "Not at all. We maintain a digital CRM system. Our support team will call you a week before your service is due to schedule a convenient time for the technician's visit." },
+            { q: "Can I buy an AMC for a very old Window AC?", a: "Yes, we offer AMC plans for Window ACs. However, for extremely old units (10+ years), we will conduct a preliminary health check before approving a Comprehensive contract." },
+            { q: "What happens if I move to a new house within your service area?", a: "Your AMC contract is fully transferable. If you move from Vasai to Virar, for example, your contract moves with you. (Uninstallation/Installation charges apply for the shifting process)." },
+            { q: "Do you provide AMC for offices with multiple Cassette ACs?", a: "Yes, we specialize in Commercial AC AMC. We offer customized, discounted contracts for businesses with multiple Split, Window, or Cassette units." },
+            { q: "Why should I buy an AMC instead of just calling a mechanic when it breaks?", a: "Because running an unmaintained AC increases your electricity bill by 30% and drastically shortens the life of the compressor. An AMC prevents breakdowns, saves electricity, and guarantees you priority service when you need it most." },
+            { q: "Will an AMC fix the 'dirty socks' smell from my AC?", a: "Yes. That smell is black mold. The routine deep cleaning included in your AMC eradicates this mold, ensuring your family breathes healthy, odorless air." },
+            { q: "How soon do you respond to emergency breakdowns for AMC customers?", a: "AMC customers get VIP Priority routing. During peak summer, while regular customers might wait 24-48 hours, AMC members are attended to within hours." },
+            { q: "Are the spare parts used during AMC repairs genuine?", a: "100% Yes. We only use OEM (Original Equipment Manufacturer) spare parts. We never compromise the integrity of your machine with cheap duplicate parts." },
+            { q: "Can I upgrade my Non-Comprehensive plan to a Comprehensive one later?", a: "Yes, you can upgrade after our technician inspects the current health of your air conditioner and verifies it is in good working order." },
+            { q: "Do you service Inverter ACs under the AMC plan?", a: "Absolutely. Our technicians are highly trained in the electronics and specialized refrigerants (like R32) used in modern Inverter ACs." },
+            { q: "Is the AMC fee refundable if I sell my AC?", a: "While the fee is non-refundable, the AMC is transferable to the new owner of the AC, which actually increases the resale value of your machine." },
+            { q: "What is an 'Electrical Safety Check'?", a: "During every visit, we check the amp-draw of the compressor, inspect the run/start capacitors for bulging, and tighten all terminal wires. This prevents dangerous short circuits and fires." },
+            { q: "Does the AMC cover remote control repairs?", a: "No, plastic body parts, remote controls, and air filters (if torn) are considered consumable/physical damage items and are not covered under free replacement." },
+            { q: "Are your technicians background verified?", a: "Yes, since our technicians will be visiting your home multiple times a year, every team member undergoes strict background checks and continuous training." },
+            { q: "How do I sign up for an AC AMC today?", a: "It’s very easy. Click the WhatsApp button or call us at +91 81159 53195. We will schedule a first visit to inspect and service your AC, and you can sign the contract on the spot." }
           ].map((faq, idx) => (
             <div key={idx} className="bg-gray-50 p-5 rounded-lg border border-gray-100">
               <h4 className="font-semibold text-gray-900 mb-2">Q{idx + 1}. {faq.q}</h4>
