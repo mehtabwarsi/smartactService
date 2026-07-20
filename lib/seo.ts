@@ -4,6 +4,7 @@ export function getLocalBusinessSchema() {
     "@type": "LocalBusiness",
     "@id": "https://smartact-service.vercel.app",
     "name": "Smart AC Service",
+    "image": "https://smartact-service.vercel.app/favicon.png",
     "description": "Premium AC repair, installation, gas filling and maintenance in Nalasopara, Vasai, Virar, Naigaon, Bhayandar and Mumbai.",
     "url": "https://smartact-service.vercel.app",
     "telephone": "+91 81159 53195",
